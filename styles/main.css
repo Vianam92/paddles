@@ -1,6 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+}
+
+.list-container {
+    display: flex;
+    list-style-type: none;
+}
+
 .color__item {
     width: 80px;
     height: 60px;
+}
+
+.fas {
+    font-size: 30px;
+    width: 80px;
+    padding: 5px;
+    color: red;
 }
 
 .container {
@@ -10,10 +32,16 @@
     flex-wrap: wrap;
 }
 
-.texto {
+.text {
     width: 100%;
+    margin: 10px;
 }
 
-.js-section-text {
-    width: 100%;
+.input {
+    width: 200px;
+    height: 30px;
+}
+
+.input:hover {
+    border: 3px solid rgb(137, 74, 196);
 }
