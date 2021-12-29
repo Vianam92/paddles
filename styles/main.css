@@ -6,11 +6,14 @@
 
 body {
     margin: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .list-container {
     display: flex;
     list-style-type: none;
+    flex-wrap: wrap;
 }
 
 .color__item {
@@ -34,7 +37,7 @@ body {
 
 .text {
     width: 100%;
-    margin: 10px;
+    margin: 20px 10px 10px 10px;
 }
 
 .input {
@@ -44,4 +47,11 @@ body {
 
 .input:hover {
     border: 3px solid rgb(137, 74, 196);
+}
+
+@media(min-width:768px) {
+    .color__item {
+        width: 120px;
+        height: 80px;
+    }
 }
