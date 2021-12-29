@@ -1,3 +1,9 @@
+**[Made by Vianam92](https://github.com/Vianam92)** 🤖️
+
+- Exercise URL: [Paddles](vianam92.github.io/paddles//)
+
+---
+
 # El ejericicio de las paletas
 
 ## 1º Todo es color entre tú y tus arrays...
